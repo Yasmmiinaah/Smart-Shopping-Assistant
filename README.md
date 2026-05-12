@@ -111,6 +111,25 @@ Used to:
 
 ---
 
+
+
+## 🔹 Teamwork & Individual Contribution
+
+| Team Member | Contribution |
+|---|---|
+| Ibrahim | Built and trained the ResNet50 image classification model |
+| Ahmed | Developed the EfficientNet model and optimized image preprocessing |
+| Yasmin | Implemented the GRU text feature extraction model |
+| Omnya | Developed and trained the LSTM text encoder |
+| Mohamed | Built the Concatenation Fusion Model for combining image and text embeddings |
+| Shouk | Implemented the Similarity Model using Cosine Similarity and product ranking |
+
+
+
+---
+
+
+
 # 🖼️ Workflow
 
 1. Product image is processed using CNN models.
