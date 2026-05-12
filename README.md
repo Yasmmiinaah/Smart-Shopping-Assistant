@@ -89,6 +89,26 @@ Used to:
 * Retrieve the most relevant items
 * Generate recommendation results
 
+  
+
+---
+
+
+
+## 🔹 Experimental & Comparative Analysis
+
+
+| Model               | Type                 | Main Role                        | Accuracy / Metric | Loss   | Notes                                                          |
+| ------------------- | -------------------- | -------------------------------- | ----------------- | ------ | -------------------------------------------------------------- |
+| ResNet50            | CNN                  | Image Feature Extraction         | 99.15%            | 0.0406 | Achieved the highest image classification performance          |
+| EfficientNet        | CNN                  | Lightweight Image Classification | 71.90%            | 0.8403 | Faster and more efficient with lower accuracy                  |
+| GRU                 | RNN                  | Text Feature Extraction          | 85.95%            | 0.2186 | Good performance for text sequence understanding               |
+| LSTM                | RNN                  | Advanced Text Encoding           | 89.39%            | 0.37  | Better handling of long-term dependencies                      |
+| Concatenation Model | Fusion Model         | Combine image and text features  | —                 | —      | Merged visual and textual embeddings into one feature vector   |
+| Similarity Model    | Recommendation Model | Product matching and ranking     | Cosine Similarity | —      | Ranked products according to similarity between image and text |
+
+
+
 ---
 
 # 🖼️ Workflow
