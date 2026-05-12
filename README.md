@@ -130,6 +130,22 @@ Used to:
 
 
 
+## 🔹 Evaluation Metrics & Validation Strategy
+
+- The models were evaluated using Accuracy and Loss metrics.
+- Validation datasets were used during training to monitor model generalization.
+- Early Stopping was applied to reduce overfitting and restore the best model weights.
+- Training and validation accuracy/loss curves were analyzed for performance monitoring.
+- Cosine Similarity was used to measure similarity between image and text embeddings in the recommendation stage.
+- Data preprocessing techniques such as image resizing, normalization, tokenization, and sequence padding were applied before training.
+
+
+
+---
+
+
+
+
 # 🖼️ Workflow
 
 1. Product image is processed using CNN models.
