@@ -145,7 +145,6 @@ Used to:
 
 
 
-
 # 🖼️ Workflow
 
 1. Product image is processed using CNN models.
@@ -179,17 +178,7 @@ Dataset contains:
 
 ---
 
-# 📊 Evaluation Metrics
 
-The project uses multiple evaluation metrics including:
-
-* Accuracy
-* Validation Accuracy
-* Loss
-* Validation Loss
-* Cosine Similarity Score
-
----
 
 # 🛠️ Technologies Used
 
@@ -227,18 +216,6 @@ Multimodal_Project/
 └── dataset/
 ```
 
----
-
-# 👥 Team Contributions
-
-The project was divided into multiple deep learning tasks:
-
-* Image Modeling
-* Text Modeling
-* Fusion Architecture
-* Similarity Computation
-* Evaluation & Testing
-* Dataset Preparation
 
 ---
 
